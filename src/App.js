@@ -8,6 +8,7 @@ import Blogs from './components/Blogs/Blogs';
 import Header from './components/Header/Header';
 import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
