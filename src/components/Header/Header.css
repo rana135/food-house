@@ -1,0 +1,20 @@
+nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    background-color: cornflowerblue;
+    padding: 8px 15px;
+    border-radius: 15px;
+   }
+   nav a:hover{
+       color: orange;
+   }
+   .navigation{
+       display: flex;
+       justify-content: center;
+       margin-top: 10px;
+       position: sticky;
+       top: 0%;
+       z-index: 1;
+   }
