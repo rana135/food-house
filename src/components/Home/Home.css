@@ -4,3 +4,34 @@
     grid-gap: 20px;
     margin: 30px;
 }
+.customer-reviews{
+    margin-top: 150px;
+}
+.foods{
+    display: flex;
+    margin-top: 50px;
+}
+.foods img{
+    width: 350px;
+    height: 270px;
+    margin-right: 50px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+.food{
+    margin-left: 50px;
+}
+.food strong{
+    font-size: 45px;
+    line-height: 30px;
+}
+.best-food{
+    color:cornflowerblue
+}
+.food .btn{
+   background-color: salmon;
+   border: 1px solid gray;
+   border-radius: 60px;
+   font-size: 20px;
+   color:white;
+}
