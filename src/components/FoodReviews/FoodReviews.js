@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './FoodReview.css'
 
 const FoodReviews = (props) => {

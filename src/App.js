@@ -9,6 +9,7 @@ import Header from './components/Header/Header';
 import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
