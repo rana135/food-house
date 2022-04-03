@@ -11,12 +11,11 @@
     line-height: 5px;
     margin-left: 5px;
 }
-.food-container{
+.reviews-all{
     border: 1px solid gray;
     border-radius: 5px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    padding: 10px;
 }
-.food{
-    
+.reviews{
+    line-height: 15px;
 }
