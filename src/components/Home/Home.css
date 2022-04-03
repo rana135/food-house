@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin: 30px;
+    margin-bottom: 150px;
 }
 .customer-reviews{
     margin-top: 150px;

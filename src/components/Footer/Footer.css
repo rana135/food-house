@@ -6,6 +6,8 @@
     text-align: center;
     color:white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 .footvar{
     font-size:10px;
