@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Project Name:- Food House.
+## [Netlify live server link](https://food-house-assignment.netlify.app/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Project Description:-
+* This is basically a website of customer reviews.
+* The dashboard has a list of investment vs revenue.
+* Questions have been answered using accordion in blogs.
+* The main purpose of this project is to react route
 
 In the project directory, you can run:
 
