@@ -1,6 +1,8 @@
 import React from 'react';
 import useFood from '../../hooks/useFood';
+import CustomLink from '../CustomLink/CustomLink';
 import FoodReviews from '../FoodReviews/FoodReviews';
+import HomeReview from '../HomeReview/HomeReview';
 import './Home.css';
 
 const Home = () => {
@@ -24,12 +26,13 @@ const Home = () => {
                 <h1 style={{textAlign:"center" , fontSize:"45px"}}>Customer Reviews (3)</h1>
                 <div className='reviews-container'>
                     {
-                        foods.map(food => <FoodReviews
-                            key={food.id}
-                            food={food}
-                        ></FoodReviews>)
+                        foods.map(food => <HomeReview
+                        key={food.id}
+                        food={food}
+                        ></HomeReview>)
                     }
                 </div>
+                <CustomLink to='/reviews'> <button className='all-reviews'>See All Reviews</button></CustomLink>
             </div>
         </div>
     );
