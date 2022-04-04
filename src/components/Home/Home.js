@@ -15,7 +15,7 @@ const Home = () => {
                     <div className='food'>
                         <p><strong>Your next food</strong></p>
                         <p className='best-food'><strong>Your best food</strong></p>
-                        <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Bangladesh is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your everyday easier.</p>
+                        <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then food house USA is the right destination for you! food house offers you a long and detailed list of the best restaurants and shops near you to help make your everyday easier.</p>
                         <button className='btn'>Live demo</button>
                     </div>
                     <div>
