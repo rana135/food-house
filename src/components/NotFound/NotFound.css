@@ -1,12 +1,14 @@
 .not-found-icon{
-    height: 280px;
-    width: 220px;
+    height: 220px;
+    width: 120px;
+    margin-bottom: 0px;
     
 }
 
 .not-found-text h1{
     font-size: 100px;
-    margin: 0%;
+    margin-bottom: 5%;
+    line-height: 10px;
 }
 .not-found-text h3{
     margin: 0%;
