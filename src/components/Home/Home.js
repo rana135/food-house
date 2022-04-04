@@ -7,6 +7,7 @@ import './Home.css';
 
 const Home = () => {
     const [foods, setFoods] = useFood();
+    const homeReview = foods.slice(0, 3)
     return (
         <div>
             <div>
@@ -26,7 +27,7 @@ const Home = () => {
                 <h1 style={{textAlign:"center" , fontSize:"45px"}}>Customer Reviews (3)</h1>
                 <div className='reviews-container'>
                     {
-                        foods.map(food => <HomeReview
+                        homeReview.map(food => <HomeReview
                         key={food.id}
                         food={food}
                         ></HomeReview>)
