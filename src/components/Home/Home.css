@@ -43,3 +43,35 @@
    border-radius: 60px;
    margin-bottom: 50px;
 }
+/* -------------------------------------------
+               Media Queries 
+------------------------------------------*/
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+    .reviews-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+  }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .reviews-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */
+/* @media (min-width: 320px) and (max-width: 480px) {
+    .reviews-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  } */
+  @media only screen and (max-width: 600px) {
+
+    .reviews-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .foods{
+        display: grid;
+        grid-template-columns: 1fr ;
+    } 
+}
